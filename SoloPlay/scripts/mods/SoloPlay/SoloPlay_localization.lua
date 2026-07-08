@@ -61,6 +61,7 @@ return {
 	mission_brief_enabled = {
 		en = "Mission Brief",
 		["zh-cn"] = "任务简报",
+		["zh-tw"] = "任務報告",
 	},
 	friendly_fire_enabled = {
 		en = "Friendly fire",
@@ -81,7 +82,7 @@ return {
 			"此选项会在单人游戏中启用旧版的随机位置生成器。",
 		ru = "В настоящее время места появления побочных миссий заблокированы и меняются еженедельно.\n" ..
 			"Эта опция включает старый генератор случайных мест в соло-игре.",
-		["zh-tw"] = "目前，次要目標的生成位置是鎖定的，並且僅在每週更換一次。\n" ..
+		["zh-tw"] = ,
 			"此選項會在單人遊戲中啟用舊版的隨機位置生成器。",
 	},
 	solo_command_desc = {
@@ -201,7 +202,7 @@ return {
 			.. "你无法从离线游戏中获得任何奖励或进度。",
 		ru = "Офлайн-игра предназначена в основном для тестирования, впечатления от неё могут отличаться от онлайн-игры.\n"
 			.. "В офлайн-игре вы не сможете получить никаких наград или прогресса.",
-		["zh-tw"] = "離線遊戲主要用於測試，其體驗可能與在線遊戲有所不同。\n"
+		["zh-tw"] = ,
 			.. "你無法在離線遊戲中獲得任何獎勵或進度。",
 	},
 	tip_invalid_combination = {
@@ -348,13 +349,13 @@ return {
 		en = "Player Grenade Amount +%d\nBrain Burst Peril -%d%%",
 		["zh-cn"] = "玩家手雷 +%d\n大脑爆裂危机值 -%d%%",
 		ru = "Количество гранат у игрока: +%d\nОпасность от Разрыва мозга: -%d%%",
-		["zh-tw"] = "玩家手榴彈數量 +%d\n大腦爆裂危險值 -%d%%",
+		["zh-tw"] = "玩家手榴彈數量 +%d\n 顱腦爆裂反噬 -%d%%",
 	},
 	havoc_modifier_positive_stamina_modifier = {
 		en = "Player Stamina +%d",
 		["zh-cn"] = "玩家体力 +%d",
 		ru = "Выносливость игрока: +%d",
-		["zh-tw"] = "玩家體力 +%d",
+		["zh-tw"] = "玩家耐力 +%d",
 	},
 	havoc_modifier_positive_weakspot_damage_bonus = {
 		en = "Player Weakspot Damage +%d%%",
@@ -378,7 +379,7 @@ return {
 		en = "Player Crit Chance +%d%%",
 		["zh-cn"] = "玩家暴击率 +%d%%",
 		ru = "Шанс критического удара игрока: +%d%%",
-		["zh-tw"] = "玩家暴擊率 +%d%%",
+		["zh-tw"] = "玩家致命一擊率 +%d%%",
 	},
 	havoc_modifier_positive_movement_speed = {
 		en = "Player Movement Speed +%d%%",
